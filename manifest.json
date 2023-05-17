@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Filtro CT",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://wtc.contazen.com.br/Cockpit/Index/?tipo=D"],
+            "js": ["conteudo.js"],
+            "css": ["main.css"]
+        }
+    ],
+      "icons": {
+        "16": "./vis.png",
+        "32": "./vis.png",
+        "48": "./vis.png",
+        "128": "./vis.png"
+      }
+}

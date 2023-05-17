@@ -1,0 +1,30 @@
+.but {
+  background-color: #90028c;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 6px 12px;
+  color: #ffffff;
+  margin-left: 10px;
+  border: none;
+}
+.inputPercent {
+  padding: 0px 12px;
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 60px;
+  text-align: right;
+  border: #b93eb5 2px solid;
+  height: 26px;
+  font-size: 19px;
+  background-color: #ffffff;
+  opacity: 95%;
+}
+.inputPercent::-webkit-outer-spin-button,
+.inputPercent::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputPercent {
+  -moz-appearance: textfield;
+}
